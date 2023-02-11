@@ -29,7 +29,7 @@ public class StringComphresion {
             }
         }
         for (int i = 0; i < List1.size(); i++) {
-            s1 += List1.get(i);
+            s1 =s1 + List1.get(i);
         }
         System.out.println(s1);
     }
